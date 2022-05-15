@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess</title>
+
+    <style>
+        body{
+            background: url();
+            background-repeat: no-repeat;
+            background-color: black;
+            background-position-y: -10px;
+            background-size: 1300px;
+    
+        }.left {
+        border: 2px solid white;
+        color: greenyellow;
+        display: inline-block;
+        position: absolute;
+        left: 19px;
+        top: 22px;
+        padding: 33px;
+        border-radius: 20px;
+    }
+
+    .left img {
+        width: 350px;
+        margin: 0px 40px;
+        padding: 0px 20px;
+
+
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        border: 2px solid white;
+    color: greenyellow;
+    display: block;
+    width: 38%;
+    border-radius: 73px;
+    margin: 12px auto;
+
+    }
+
+    .right {
+        border: 2px solid white;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+        color: greenyellow;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 30px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(69, 69, 132);
+    }
+
+    .container {
+        border: 2px solid white;
+        color: white;
+        margin: 300px 71px;
+        padding: 90px;
+        width: 25.5%;
+        border-radius: 29px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 390px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="gym2.jpg" alt="">
+            <div>
+                MJ Fitness
+            </div>
+        </div>
+
+        <!-- Mid box for nav bar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home </a></li>
+                <li><a href="#">registrationpage</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1></h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit </button>
+        </form>
+    </div>
+</body>
+
+</html>
